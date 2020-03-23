@@ -93,26 +93,26 @@ figure(3);
 plot(n_b, errors_b, 'o')
 title("Faktoryzacja Choleskiego-Banasiewicza, punkt b - norma residuum(n)");
 xlabel("Liczba równań n"); ylabel("Norma residuum");
-saveas(1, "./plots/zad_2b.fig");
-saveas(1, "./plots/zad_2b.png");
+saveas(3, "./plots/zad_2b.fig");
+saveas(3, "./plots/zad_2b.png");
 
 figure(4)
 plot(n_b, t_b, 'o')
 title("Faktoryzacja Choleskiego-Banasiewicza, punkt b - t(n)");
 xlabel("Liczba równań n"); ylabel("Czas t(s)");
-saveas(1, "./plots/zad_2b_t.fig");
-saveas(1, "./plots/zad_2b_t.png");
+saveas(4, "./plots/zad_2b_t.fig");
+saveas(4, "./plots/zad_2b_t.png");
 
 figure(5);
 plot(n_c, errors_c, 'o')
 title("Faktoryzacja Choleskiego-Banasiewicza, punkt c - norma residuum(n)");
 xlabel("Liczba równań n"); ylabel("Norma residuum");
-saveas(1, "./plots/zad_2c.fig");
-saveas(1, "./plots/zad_2c.png");
+saveas(5, "./plots/zad_2c.fig");
+saveas(5, "./plots/zad_2c.png");
 
 figure(6)
 plot(n_c, t_c, 'o')
 title("Faktoryzacja Choleskiego-Banasiewicza, punkt c - t(n)");
 xlabel("Liczba równań n"); ylabel("Czas t(s)");
-saveas(1, "./plots/zad_2c_t.fig");
-saveas(1, "./plots/zad_2c_t.png");
+saveas(6, "./plots/zad_2c_t.fig");
+saveas(6, "./plots/zad_2c_t.png");
